@@ -37,7 +37,7 @@ class _CommentsGetApiScreenState extends State<CommentsGetApiScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Get Api'),
+        title: Text('Get Api for Comments'),
         backgroundColor: Colors.blue,
         centerTitle: true,
       ),
