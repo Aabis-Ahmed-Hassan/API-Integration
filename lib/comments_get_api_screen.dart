@@ -22,6 +22,7 @@ class _CommentsGetApiScreenState extends State<CommentsGetApiScreen> {
 
     if (response.statusCode == 200) {
       var data = jsonDecode(response.body);
+      _myComments.clear();
       for (Map<String, dynamic> i in data) {
         _myComments.add(CommentsModal.fromJson(i));
       }
