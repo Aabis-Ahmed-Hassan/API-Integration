@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as myhttp;
 
-import 'modals/CommentsModal.dart';
+import '../modals/CommentsModal.dart';
 
 class CommentsGetApiScreen extends StatefulWidget {
   CommentsGetApiScreen({super.key});
